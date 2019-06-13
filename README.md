@@ -1,10 +1,10 @@
-#IOT_TWEET_AND_SEMANTIC
+# IOT_TWEET_AND_SEMANTIC
 Visualisation avec LEDS des sentiments de tweet
 
-##Description
+## Description
 Programme qui visualise sur une matrice LED le sentiment des tweets reçus. Le projet utilise l'API AWS comprehend.
 
-##Groupes
+## Groupes
 Antoine LEVY, Slaheddine BEJAOUI, Clemnentine THORNARY, Alexandre GARCIAS
 
-##Etat de l’existant
+## Etat de l’existant
