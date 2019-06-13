@@ -8,3 +8,7 @@ Programme qui visualise sur une matrice LED le sentiment des tweets reçus. Le p
 Antoine LEVY,  Clementine THORNARY, Slaheddine BEJAOUI, Alexandre GARCIAS
 
 ## Etat de l’existant
+
+## Dependencies
+
+tweepy boto3 awscli gTTS Gpio
