@@ -5,7 +5,7 @@ Visualisation avec LEDS des sentiments de tweet
 Programme qui visualise sur une matrice LED le sentiment des tweets reçus. Le projet utilise l'API AWS comprehend.
 
 ## Groupe
-Antoine LEVY,  Clementine THORNARY, Slaheddine BEJAOUI, Alexandre GARCIAS
+Antoine LEVY,  Clementine THORNARY, Slaheddine BEJAOUI, Alexandre GARCIA
 
 ## Etat de l'existant
 
