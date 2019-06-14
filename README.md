@@ -33,9 +33,13 @@ https://www.sitepoint.com/home-made-twitter-and-gmail-notifications-with-php-and
 
 ## Installation 
 
+### Architecture :
+
+
 ![Rapberry Pi 3 Setup](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/archi.PNG)
 
 
+### Setup : 
 
 You will need to plug a headset or speaker to the jack plug. You also can pair with a bluetooth device.
 
