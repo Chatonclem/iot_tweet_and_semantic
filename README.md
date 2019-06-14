@@ -23,6 +23,8 @@ https://www.sitepoint.com/home-made-twitter-and-gmail-notifications-with-php-and
 
 ## Installation 
 
+You will need to plug a headset or speaker to the jack plug. You also can pair with a bluetooth device.
+
 **Install git and mpg321 :**
 
 	apt-get install git mpg321
