@@ -13,33 +13,23 @@ https://www.sitepoint.com/home-made-twitter-and-gmail-notifications-with-php-and
 
 ## Dependencies
 
-**tweepy boto3 awscli gTTS Gpio**
+**tweepy** twitter library  
+
+**boto3 awscli** AWS Comprehend library
+
+**gTTS** Google text to speech library
+
+**Gpio** Library to manage I/O to turn on/off the leds
 
 ## Installation 
 
-**Install git and :**
+**Install git and mpg321 :**
 
-	apt-get install git
+	apt-get install git mpg321
 
 **Upgrade python3 :**
 
-suivre ces étapes : 
-
-https://gist.github.com/SeppPenner/6a5a30ebc8f79936fa136c524417761d
-
-**Install miniconda :**
-
-	wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh
-	md5sum Miniconda3-latest-Linux-armv7l.sh
-	bash Miniconda3-latest-Linux-armv7l.sh
-
-**Create a conda env :**
-
-	conda create -n iotenv python=3.4
-
-**Activate your conda env :**
-
-	conda activate iotenv
+	apt-get upgrade python3
 
 **Install the dependencies :**
 
@@ -51,6 +41,22 @@ https://gist.github.com/SeppPenner/6a5a30ebc8f79936fa136c524417761d
 
 ## Utilisation
 
+* The script will recover tweets from twitter considering the hashtag
+* It will request AWS comprehend api to detect language and sentiment
+* The leds will be turn on depending on the sentiment
+* The tweet will be read by the speaker
+* The leds will finaly turn off
+
+**Before using the script, you will have to set the twitter credentials !** If you don't have any, look at this : https://developer.twitter.com/
+
 **Launch the script**
 
-python ~/iot_tweet_and_semantic/main.py
+	python ~/iot_tweet_and_semantic/main.py
+
+**You can specify a specific hashtag : **
+
+	python ~/iot_tweet_and_semantic/main.py hashtag
+
+**You can activate a verbose mode for DEBUG like this : **
+
+	python ~/iot_tweet_and_semantic/main.py hashtag debug
