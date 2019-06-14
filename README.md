@@ -16,16 +16,6 @@ Matériel :
 
 Raspberry Pi 3
 
-### Installation
-
-![Rapberry Pi 3 Setup](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/archi.PNG)
-
-## Auteurs
-
-* **Antoine Levy**
-* **Clementine Thornary**
-* **Slaheddine Bejaoui**
-* **Alexandre Garcias**
 
 ## Etat de l'existant
 
@@ -42,6 +32,10 @@ https://www.sitepoint.com/home-made-twitter-and-gmail-notifications-with-php-and
 **Gpio** : Library to manage I/O to turn on/off the leds
 
 ## Installation 
+
+![Rapberry Pi 3 Setup](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/archi.PNG)
+
+
 
 You will need to plug a headset or speaker to the jack plug. You also can pair with a bluetooth device.
 
@@ -82,3 +76,11 @@ You will need to plug a headset or speaker to the jack plug. You also can pair w
 **You can activate a verbose mode for DEBUG like this :**
 
 	python ~/iot_tweet_and_semantic/main.py hashtag debug
+
+
+## Auteurs
+
+* **Antoine Levy**
+* **Clementine Thornary**
+* **Slaheddine Bejaoui**
+* **Alexandre Garcias**
