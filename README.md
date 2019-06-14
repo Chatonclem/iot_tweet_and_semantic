@@ -1,10 +1,13 @@
 # IOT_TWEET_AND_SEMANTIC
 Visualisation avec LEDS des sentiments de tweet
 
+## Description
+Ce projet a pour but de visualiser en temps réel le sentiment des tweets que l'ont recoit. C'est tweets peuvent être de différentes langues et doivent comporter un ou plusieurs hashtag. 
+Pour ce faire nous utiliserons seulement un Raspberry PI 3 ainsi qu'un circuit avec des LEDS et une connexion internet.
+Le projet utilise l'API Twitter "tweepy", l'API NLP de Amazon "AWS comprehend" ainsi que l'API de Google "Text to speech".  
+
 ![Architecture](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/schema.PNG)
 
-## Description
-Programme qui visualise sur une matrice LED le sentiment des tweets reçus. Le projet utilise l'API AWS comprehend.
 
 ### Prérequis et liens utiles
 
@@ -14,7 +17,7 @@ Matériel :
 ![Rapberry Pi 3](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/rpi3.jpg)
 
 
-Raspberry Pi 3
+Une Raspberry Pi 3
 
 
 ## Etat de l'existant
