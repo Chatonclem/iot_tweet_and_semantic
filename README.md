@@ -17,10 +17,15 @@ https://www.sitepoint.com/home-made-twitter-and-gmail-notifications-with-php-and
 
 ## Installation 
 
-**Install git and upgrade python3 :**
+**Install git and :**
 
 	apt-get install git
-	apt-get upgrade python3
+
+**Upgrade python3 :**
+
+suivre ces étapes : 
+
+https://gist.github.com/SeppPenner/6a5a30ebc8f79936fa136c524417761d
 
 **Install miniconda :**
 
