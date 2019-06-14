@@ -13,13 +13,13 @@ https://www.sitepoint.com/home-made-twitter-and-gmail-notifications-with-php-and
 
 ## Dependencies
 
-**tweepy** twitter library  
+**tweepy** : twitter library  
 
-**boto3 awscli** AWS Comprehend library
+**boto3 awscli** : AWS Comprehend library
 
-**gTTS** Google text to speech library
+**gTTS** : Google text to speech library
 
-**Gpio** Library to manage I/O to turn on/off the leds
+**Gpio** : Library to manage I/O to turn on/off the leds
 
 ## Installation 
 
@@ -55,10 +55,10 @@ You will need to plug a headset or speaker to the jack plug. You also can pair w
 
 	python ~/iot_tweet_and_semantic/main.py
 
-**You can specify a specific hashtag : **
+**You can specify a specific hashtag :**
 
 	python ~/iot_tweet_and_semantic/main.py hashtag
 
-**You can activate a verbose mode for DEBUG like this : **
+**You can activate a verbose mode for DEBUG like this :**
 
 	python ~/iot_tweet_and_semantic/main.py hashtag debug
