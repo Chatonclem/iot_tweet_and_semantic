@@ -1,7 +1,7 @@
 # IOT_TWEET_AND_SEMANTIC
 Visualisation avec LEDS des sentiments de tweet
 
-![Architecture](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/archi.PNG)
+![Architecture](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/schema.PNG)
 
 ## Description
 Programme qui visualise sur une matrice LED le sentiment des tweets reçus. Le projet utilise l'API AWS comprehend.
@@ -9,11 +9,11 @@ Programme qui visualise sur une matrice LED le sentiment des tweets reçus. Le p
 ### Prérequis et liens utiles
 
 Matériel :
-![Rapberry Pi 3](https://github.com/Chatonclem/iot_tweet_and_semantic/raw/master/iot_tweet_and_semantic\assets\rpi3.jpg)
+![Rapberry Pi 3](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/rpi3.jpg)
 
 ### Installation
 
-![Rapberry Pi 3 Setup](https://github.com/Chatonclem/iot_tweet_and_semantic/raw/master/iot_tweet_and_semantic\assets\archi.PNG)
+![Rapberry Pi 3 Setup](https://github.com/Chatonclem/iot_tweet_and_semantic/blob/master/assets/archi.PNG)
 
 ## Auteurs
 
